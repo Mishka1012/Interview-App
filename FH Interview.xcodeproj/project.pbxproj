@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1872C94F1B2B17320000B46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C94E1B2B17320000B46F /* AppDelegate.swift */; };
+		1872C9511B2B17320000B46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C9501B2B17320000B46F /* ViewController.swift */; };
+		1872C9541B2B17320000B46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872C9521B2B17320000B46F /* Main.storyboard */; };
+		1872C9561B2B17320000B46F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872C9551B2B17320000B46F /* Images.xcassets */; };
+		1872C9591B2B17320000B46F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872C9571B2B17320000B46F /* LaunchScreen.xib */; };
+		1872C9651B2B17320000B46F /* FH_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C9641B2B17320000B46F /* FH_InterviewTests.swift */; };
+		1872C9781B2B17480000B46F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C9771B2B17480000B46F /* InterfaceController.swift */; };
+		1872C97A1B2B17480000B46F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C9791B2B17480000B46F /* NotificationController.swift */; };
+		1872C97C1B2B17480000B46F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872C97B1B2B17480000B46F /* Images.xcassets */; };
+		1872C9801B2B17480000B46F /* FH Interview WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1872C97F1B2B17480000B46F /* FH Interview WatchKit App.app */; };
+		1872C9881B2B17480000B46F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872C9861B2B17480000B46F /* Interface.storyboard */; };
+		1872C98A1B2B17480000B46F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872C9891B2B17480000B46F /* Images.xcassets */; };
+		1872C98D1B2B17480000B46F /* FH Interview WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1872C9721B2B17480000B46F /* FH Interview WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1872C95F1B2B17320000B46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1872C9411B2B17320000B46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1872C9481B2B17320000B46F;
+			remoteInfo = "FH Interview";
+		};
+		1872C9811B2B17480000B46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1872C9411B2B17320000B46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1872C97E1B2B17480000B46F;
+			remoteInfo = "FH Interview WatchKit App";
+		};
+		1872C98B1B2B17480000B46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1872C9411B2B17320000B46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1872C9711B2B17480000B46F;
+			remoteInfo = "FH Interview WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1872C9941B2B17480000B46F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1872C98D1B2B17480000B46F /* FH Interview WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1872C9491B2B17320000B46F /* FH Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FH Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1872C94D1B2B17320000B46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872C94E1B2B17320000B46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1872C9501B2B17320000B46F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1872C9531B2B17320000B46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1872C9551B2B17320000B46F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1872C9581B2B17320000B46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1872C95E1B2B17320000B46F /* FH InterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FH InterviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1872C9631B2B17320000B46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872C9641B2B17320000B46F /* FH_InterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FH_InterviewTests.swift; sourceTree = "<group>"; };
+		1872C9721B2B17480000B46F /* FH Interview WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FH Interview WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1872C9751B2B17480000B46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872C9761B2B17480000B46F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1872C9771B2B17480000B46F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1872C9791B2B17480000B46F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1872C97B1B2B17480000B46F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1872C97F1B2B17480000B46F /* FH Interview WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FH Interview WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1872C9851B2B17480000B46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872C9871B2B17480000B46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1872C9891B2B17480000B46F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1872C9461B2B17320000B46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C95B1B2B17320000B46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C96F1B2B17480000B46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1872C9401B2B17320000B46F = {
+			isa = PBXGroup;
+			children = (
+				1872C94B1B2B17320000B46F /* FH Interview */,
+				1872C9731B2B17480000B46F /* FH Interview WatchKit Extension */,
+				1872C9831B2B17480000B46F /* FH Interview WatchKit App */,
+				1872C94A1B2B17320000B46F /* Products */,
+				1872C9611B2B17320000B46F /* FH InterviewTests */,
+			);
+			sourceTree = "<group>";
+		};
+		1872C94A1B2B17320000B46F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9491B2B17320000B46F /* FH Interview.app */,
+				1872C95E1B2B17320000B46F /* FH InterviewTests.xctest */,
+				1872C9721B2B17480000B46F /* FH Interview WatchKit Extension.appex */,
+				1872C97F1B2B17480000B46F /* FH Interview WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1872C94B1B2B17320000B46F /* FH Interview */ = {
+			isa = PBXGroup;
+			children = (
+				1872C94E1B2B17320000B46F /* AppDelegate.swift */,
+				1872C9501B2B17320000B46F /* ViewController.swift */,
+				1872C9521B2B17320000B46F /* Main.storyboard */,
+				1872C9551B2B17320000B46F /* Images.xcassets */,
+				1872C9571B2B17320000B46F /* LaunchScreen.xib */,
+				1872C94C1B2B17320000B46F /* Supporting Files */,
+			);
+			path = "FH Interview";
+			sourceTree = "<group>";
+		};
+		1872C94C1B2B17320000B46F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1872C94D1B2B17320000B46F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1872C9611B2B17320000B46F /* FH InterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9641B2B17320000B46F /* FH_InterviewTests.swift */,
+				1872C9621B2B17320000B46F /* Supporting Files */,
+			);
+			path = "FH InterviewTests";
+			sourceTree = "<group>";
+		};
+		1872C9621B2B17320000B46F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9631B2B17320000B46F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1872C9731B2B17480000B46F /* FH Interview WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9771B2B17480000B46F /* InterfaceController.swift */,
+				1872C9791B2B17480000B46F /* NotificationController.swift */,
+				1872C97B1B2B17480000B46F /* Images.xcassets */,
+				1872C9741B2B17480000B46F /* Supporting Files */,
+			);
+			path = "FH Interview WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1872C9741B2B17480000B46F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9751B2B17480000B46F /* Info.plist */,
+				1872C9761B2B17480000B46F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1872C9831B2B17480000B46F /* FH Interview WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9861B2B17480000B46F /* Interface.storyboard */,
+				1872C9891B2B17480000B46F /* Images.xcassets */,
+				1872C9841B2B17480000B46F /* Supporting Files */,
+			);
+			path = "FH Interview WatchKit App";
+			sourceTree = "<group>";
+		};
+		1872C9841B2B17480000B46F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1872C9851B2B17480000B46F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1872C9481B2B17320000B46F /* FH Interview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1872C9681B2B17320000B46F /* Build configuration list for PBXNativeTarget "FH Interview" */;
+			buildPhases = (
+				1872C9451B2B17320000B46F /* Sources */,
+				1872C9461B2B17320000B46F /* Frameworks */,
+				1872C9471B2B17320000B46F /* Resources */,
+				1872C9941B2B17480000B46F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1872C98C1B2B17480000B46F /* PBXTargetDependency */,
+			);
+			name = "FH Interview";
+			productName = "FH Interview";
+			productReference = 1872C9491B2B17320000B46F /* FH Interview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1872C95D1B2B17320000B46F /* FH InterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1872C96B1B2B17320000B46F /* Build configuration list for PBXNativeTarget "FH InterviewTests" */;
+			buildPhases = (
+				1872C95A1B2B17320000B46F /* Sources */,
+				1872C95B1B2B17320000B46F /* Frameworks */,
+				1872C95C1B2B17320000B46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1872C9601B2B17320000B46F /* PBXTargetDependency */,
+			);
+			name = "FH InterviewTests";
+			productName = "FH InterviewTests";
+			productReference = 1872C95E1B2B17320000B46F /* FH InterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1872C9711B2B17480000B46F /* FH Interview WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1872C9911B2B17480000B46F /* Build configuration list for PBXNativeTarget "FH Interview WatchKit Extension" */;
+			buildPhases = (
+				1872C96E1B2B17480000B46F /* Sources */,
+				1872C96F1B2B17480000B46F /* Frameworks */,
+				1872C9701B2B17480000B46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1872C9821B2B17480000B46F /* PBXTargetDependency */,
+			);
+			name = "FH Interview WatchKit Extension";
+			productName = "FH Interview WatchKit Extension";
+			productReference = 1872C9721B2B17480000B46F /* FH Interview WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1872C97E1B2B17480000B46F /* FH Interview WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1872C98E1B2B17480000B46F /* Build configuration list for PBXNativeTarget "FH Interview WatchKit App" */;
+			buildPhases = (
+				1872C97D1B2B17480000B46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FH Interview WatchKit App";
+			productName = "FH Interview WatchKit App";
+			productReference = 1872C97F1B2B17480000B46F /* FH Interview WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1872C9411B2B17320000B46F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mikahil Amshei";
+				TargetAttributes = {
+					1872C9481B2B17320000B46F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1872C95D1B2B17320000B46F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1872C9481B2B17320000B46F;
+					};
+					1872C9711B2B17480000B46F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1872C97E1B2B17480000B46F = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 2FUZKW373X;
+					};
+				};
+			};
+			buildConfigurationList = 1872C9441B2B17320000B46F /* Build configuration list for PBXProject "FH Interview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1872C9401B2B17320000B46F;
+			productRefGroup = 1872C94A1B2B17320000B46F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1872C9481B2B17320000B46F /* FH Interview */,
+				1872C95D1B2B17320000B46F /* FH InterviewTests */,
+				1872C9711B2B17480000B46F /* FH Interview WatchKit Extension */,
+				1872C97E1B2B17480000B46F /* FH Interview WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1872C9471B2B17320000B46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C9541B2B17320000B46F /* Main.storyboard in Resources */,
+				1872C9591B2B17320000B46F /* LaunchScreen.xib in Resources */,
+				1872C9561B2B17320000B46F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C95C1B2B17320000B46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C9701B2B17480000B46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C97C1B2B17480000B46F /* Images.xcassets in Resources */,
+				1872C9801B2B17480000B46F /* FH Interview WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C97D1B2B17480000B46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C9881B2B17480000B46F /* Interface.storyboard in Resources */,
+				1872C98A1B2B17480000B46F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1872C9451B2B17320000B46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C9511B2B17320000B46F /* ViewController.swift in Sources */,
+				1872C94F1B2B17320000B46F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C95A1B2B17320000B46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C9651B2B17320000B46F /* FH_InterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1872C96E1B2B17480000B46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C97A1B2B17480000B46F /* NotificationController.swift in Sources */,
+				1872C9781B2B17480000B46F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1872C9601B2B17320000B46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1872C9481B2B17320000B46F /* FH Interview */;
+			targetProxy = 1872C95F1B2B17320000B46F /* PBXContainerItemProxy */;
+		};
+		1872C9821B2B17480000B46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1872C97E1B2B17480000B46F /* FH Interview WatchKit App */;
+			targetProxy = 1872C9811B2B17480000B46F /* PBXContainerItemProxy */;
+		};
+		1872C98C1B2B17480000B46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1872C9711B2B17480000B46F /* FH Interview WatchKit Extension */;
+			targetProxy = 1872C98B1B2B17480000B46F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1872C9521B2B17320000B46F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1872C9531B2B17320000B46F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1872C9571B2B17320000B46F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1872C9581B2B17320000B46F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1872C9861B2B17480000B46F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1872C9871B2B17480000B46F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1872C9661B2B17320000B46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1872C9671B2B17320000B46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1872C9691B2B17320000B46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FH Interview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1872C96A1B2B17320000B46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FH Interview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1872C96C1B2B17320000B46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FH InterviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FH Interview.app/FH Interview";
+			};
+			name = Debug;
+		};
+		1872C96D1B2B17320000B46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FH InterviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FH Interview.app/FH Interview";
+			};
+			name = Release;
+		};
+		1872C98F1B2B17480000B46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FH_Interview_WatchKit_Extension;
+				INFOPLIST_FILE = "FH Interview WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1872C9901B2B17480000B46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = FH_Interview_WatchKit_Extension;
+				INFOPLIST_FILE = "FH Interview WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1872C9921B2B17480000B46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FH Interview WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1872C9931B2B17480000B46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FH Interview WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1872C9441B2B17320000B46F /* Build configuration list for PBXProject "FH Interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872C9661B2B17320000B46F /* Debug */,
+				1872C9671B2B17320000B46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1872C9681B2B17320000B46F /* Build configuration list for PBXNativeTarget "FH Interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872C9691B2B17320000B46F /* Debug */,
+				1872C96A1B2B17320000B46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1872C96B1B2B17320000B46F /* Build configuration list for PBXNativeTarget "FH InterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872C96C1B2B17320000B46F /* Debug */,
+				1872C96D1B2B17320000B46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1872C98E1B2B17480000B46F /* Build configuration list for PBXNativeTarget "FH Interview WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872C98F1B2B17480000B46F /* Debug */,
+				1872C9901B2B17480000B46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1872C9911B2B17480000B46F /* Build configuration list for PBXNativeTarget "FH Interview WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872C9921B2B17480000B46F /* Debug */,
+				1872C9931B2B17480000B46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1872C9411B2B17320000B46F /* Project object */;
+}

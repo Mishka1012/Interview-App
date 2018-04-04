@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--FHR Info-->
+        <scene sceneID="f1I-Co-8rs">
+            <objects>
+                <controller title="FHR Info" id="ysQ-Ba-zse">
+                    <items>
+                        <imageView width="1" alignment="left" image="fhr-logo" contentMode="scaleAspectFit" id="q3q-WS-1eh"/>
+                        <label alignment="left" text="Limited Liability Company" numberOfLines="0" id="1TJ-gb-Plx"/>
+                        <separator alignment="left" id="JDj-1V-Mcg"/>
+                        <label alignment="left" text="est. 1940 Operated by Koch Industries.  On the path of acquisition (of other companies) since 1946" numberOfLines="0" id="l0x-hJ-7VM"/>
+                        <separator alignment="left" id="fCI-hq-LMf"/>
+                        <label alignment="left" text="Refining, chemicals, biofuels, and ingredients company." numberOfLines="0" id="m9a-lx-TK9"/>
+                        <separator alignment="left" id="ov0-8j-Z4E"/>
+                        <label alignment="left" text="Based in Wichita, Kansas" numberOfLines="0" id="QMB-WO-j3A"/>
+                        <separator alignment="left" id="wZb-6n-59M"/>
+                        <label alignment="left" text="Mainly does Buisness through acquisition of Chemical plants" numberOfLines="0" id="kYr-zE-ZvW"/>
+                        <imageView width="1" alignment="left" image="FHR Refinery" contentMode="scaleAspectFit" id="ZD8-3t-K0V"/>
+                        <button width="1" alignment="left" title="About Fairbank" id="d7Q-NF-5uz">
+                            <connections>
+                                <segue destination="t3i-68-TTz" kind="push" id="cQv-aL-Tf0"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" numberOfLines="0" minimumScaleFactor="0.50000000000000011" id="WUr-Q2-dIz">
+                            <string key="text">Refineries in Minnesota and Texas (600,000 barrels per day)  Biofuels and Ingredients are produced in Georgia, Iowa(multiple locations), and Nebraska  combined capacity of 820 million gallons of ethanol.  Produce chemicals nad polymers in Illinois and Texas.</string>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="694" y="-470"/>
+        </scene>
+        <!--Fairbank, IA-->
+        <scene sceneID="Cl4-ER-jIi">
+            <objects>
+                <controller title="Fairbank, IA" id="t3i-68-TTz">
+                    <items>
+                        <label alignment="left" text="Ethanol Plant" id="m7q-0V-mPx"/>
+                        <separator alignment="left" id="Dff-PQ-vww"/>
+                        <label alignment="left" text="7 Fermenters restarting once every two days" numberOfLines="0" id="G1v-ze-4Ef"/>
+                        <separator alignment="left" id="kcE-e5-58x"/>
+                        <label alignment="left" text="Previously owned by Hawkeye energy." numberOfLines="0" id="AUX-5e-vUX"/>
+                        <separator alignment="left" id="Rcs-Kc-Luy"/>
+                        <label alignment="left" numberOfLines="0" id="7C4-mD-nzH">
+                            <string key="text">Corn Consumption (annual) 42 million Bushels DDG(distillers grains) 310,00 tons Ehtanol : 288,000 gallons daily and 120 million gallons annualy</string>
+                        </label>
+                        <button width="1" alignment="left" title="Ethanol info" id="SH9-qh-YWy">
+                            <connections>
+                                <segue destination="I4v-OT-x5J" kind="modal" id="NWe-T2-gJc"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="986" y="-789"/>
+        </scene>
+        <!--Koch Info-->
+        <scene sceneID="ajt-gg-SeW">
+            <objects>
+                <controller title="Koch Info" id="rsR-eP-EC9">
+                    <items>
+                        <imageView alignment="left" image="WatchKoch" id="HBH-H4-u6I"/>
+                        <label alignment="left" text="Owns FHR, Georgia-Pacific, Invista and Molex" numberOfLines="0" id="MX9-va-lzN"/>
+                        <separator alignment="left" id="KdI-gm-6n9"/>
+                        <label alignment="left" text="Streches over 60 countries and employs more than 100k personel" numberOfLines="0" id="6sX-Zb-nGG"/>
+                        <separator alignment="left" id="woL-6D-q5w"/>
+                        <button width="1" alignment="left" title="FHR Info" id="zDh-JX-0Ub">
+                            <connections>
+                                <segue destination="ysQ-Ba-zse" kind="push" id="zkQ-bm-Xkj"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="A Vision for Exellence:" numberOfLines="0" id="6hC-e1-KIa"/>
+                        <separator alignment="left" id="LRb-46-t6N"/>
+                        <label alignment="left" text="Tons of Awards, mostly for enviornmental exellence and awards are location-based." numberOfLines="0" id="uER-FD-67H"/>
+                        <separator alignment="left" id="ADw-Sl-XK0"/>
+                        <label alignment="left" text="Focus of buisness is to create real, sustainable value for a ll of society." numberOfLines="0" id="ViE-FW-SNP"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="432" y="-361.17000000000002"/>
+        </scene>
+        <!--FH Interview-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="FH Interview" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FH_Interview_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" image="Watch Logo" contentMode="scaleAspectFit" id="ieq-C0-7R8"/>
+                        <button width="1" alignment="left" title="Schedule" id="YhC-HZ-g0e">
+                            <connections>
+                                <segue destination="d60-W3-gf2" kind="push" id="0UZ-w1-aob"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Koch Info" id="qdS-wC-TDx">
+                            <connections>
+                                <segue destination="rsR-eP-EC9" kind="push" id="lfJ-pq-f6Y"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Ethanol Plant Info" id="KV6-dD-Zku">
+                            <connections>
+                                <segue destination="I4v-OT-x5J" kind="push" id="xkP-R6-qdz"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="About Me" id="MvZ-OS-n2l">
+                            <connections>
+                                <segue destination="inz-cS-mHi" kind="push" id="MG1-rd-yeu"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-19" y="295.26960784313724"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="ncB-RL-ehr">
+            <objects>
+                <controller title="Schedule" id="d60-W3-gf2">
+                    <items>
+                        <button width="1" alignment="left" title="12:00" id="hbJ-bg-1Wn">
+                            <connections>
+                                <segue destination="9CU-Pl-ZGU" kind="push" id="gKL-b7-AYA"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="12:30" id="oyg-5M-N5u">
+                            <connections>
+                                <segue destination="tLL-zy-9ux" kind="push" id="tGa-NP-wt7"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="1:00" id="q32-3W-m2f">
+                            <connections>
+                                <segue destination="vnR-FH-oMN" kind="push" id="FvX-IF-n0R"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="1:30" id="OaZ-Vx-oCr">
+                            <connections>
+                                <segue destination="UHg-v9-qrX" kind="push" id="jc8-ON-wFE"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="2:00" id="hld-Q8-eQZ">
+                            <connections>
+                                <segue destination="KWn-k0-JAQ" kind="push" id="EUF-9Y-Vve"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="505" y="158"/>
+        </scene>
+        <!--Jon VanSickle-->
+        <scene sceneID="M5c-Eu-03M">
+            <objects>
+                <controller title="Jon VanSickle" id="UHg-v9-qrX">
+                    <items>
+                        <label alignment="left" text="John VanSicle" id="bol-bt-4eJ"/>
+                        <separator alignment="left" id="OCT-sk-5of"/>
+                        <label alignment="left" text="Production Manager" numberOfLines="0" id="dMX-28-nNA"/>
+                        <separator alignment="left" id="XV5-wO-eK5"/>
+                        <label width="1" alignment="left" text="Almost like a plant manager at this location, Has 3 kids he cares about alot." numberOfLines="0" id="LMO-39-kNu"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1682" y="-440"/>
+        </scene>
+        <!--Deby Dresden-->
+        <scene sceneID="VTg-0Q-Xcy">
+            <objects>
+                <controller title="Deby Dresden" id="KWn-k0-JAQ">
+                    <items>
+                        <label alignment="left" text="Deborah Dresen" id="Cxi-8a-TZ7"/>
+                        <imageView width="1" alignment="left" image="Debz" contentMode="scaleAspectFit" id="Viz-57-CG2"/>
+                        <label alignment="left" text="(assistant) Administrator at Fairbank, IA location" numberOfLines="0" id="edm-bs-19X"/>
+                        <separator alignment="left" id="N5V-9c-xN0"/>
+                        <label height="64" alignment="left" text="Finished Hawkeye Community College" numberOfLines="0" id="px0-fX-wnh"/>
+                        <separator alignment="left" id="lVt-nN-cTO"/>
+                        <label alignment="left" text="Lives in Oelwein (just down the road) and lived there all her life since 1964" numberOfLines="0" id="djZ-mZ-Wh9"/>
+                        <imageView width="1" alignment="left" image="debby 2" contentMode="scaleAspectFit" id="j9a-NO-fpu"/>
+                        <label alignment="left" text="Likes travel and her daughter" numberOfLines="0" id="EsO-dp-nge"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1845" y="-218.42857142857144"/>
+        </scene>
+        <!--Marty Symmonds-->
+        <scene sceneID="cuZ-7w-Hbr">
+            <objects>
+                <controller title="Marty Symmonds" contentMode="scaleAspectFit" id="9CU-Pl-ZGU">
+                    <items>
+                        <label alignment="left" text="Marty Symmonds" id="fz4-Td-8AI">
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <imageView alignment="left" image="Marty" contentMode="scaleAspectFit" id="yMc-Ke-3VI"/>
+                        <label alignment="left" text="Fairbanks, IA" id="jci-WP-NoE">
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </label>
+                        <separator alignment="left" id="Qie-wl-DtT"/>
+                        <label alignment="left" text="Company(Defunct): Iowa Renewable Energy, LLC" numberOfLines="0" id="211-Rh-pWg">
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </label>
+                        <separator alignment="left" id="mRL-Wg-aaK"/>
+                        <label alignment="left" text="Laboratory Manager" minimumScaleFactor="0.10000000000000014" id="1zC-aT-98g">
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </label>
+                        <separator alignment="left" id="Bzc-4I-A71"/>
+                        <label alignment="left" text="EDUCATION🎓: (A.A.S) Biotech at Indian Hills Community College 2003-2005 (BA) in Biology at William Penn Univeristy 2005-2007" numberOfLines="0" id="1BY-29-GCr">
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </label>
+                        <separator alignment="left" id="xwq-xK-dDp"/>
+                        <label alignment="left" text="Technical Interview was with him and he is most likely to decide on who gets hiered" numberOfLines="0" minimumScaleFactor="0.99999999999999989" id="MNi-Ha-DYO">
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1136" y="-245.5"/>
+        </scene>
+        <!--Rebekah Heit P.E.-->
+        <scene sceneID="zBQ-C6-gO0">
+            <objects>
+                <controller title="Rebekah Heit P.E." contentMode="scaleAspectFit" id="tLL-zy-9ux">
+                    <items>
+                        <label alignment="left" text="Rebekah Heit P.E." id="7Zu-cE-EKv"/>
+                        <imageView alignment="left" image="Rebekah Family" id="FrW-lC-cp7"/>
+                        <label alignment="left" text="FHR Project Manager at Fairbank, IA" numberOfLines="0" id="ABs-KE-2Rw"/>
+                        <separator alignment="left" id="ru2-kO-3fd"/>
+                        <label alignment="left" text="Previously worked at the following: Azko Nobel Functional Chemicals, Solutia, Rhodia, (intern for:)General Electic, John Deere." numberOfLines="0" id="XPF-Ta-c4B"/>
+                        <separator alignment="left" id="GGS-kJ-EVp"/>
+                        <label alignment="left" text="Education🎓: Iowa State University B.S. in Mechanical Engineering (1998 - 2003)" numberOfLines="0" id="BBh-nK-Iah"/>
+                        <separator alignment="left" id="JwH-Qu-50t"/>
+                        <label alignment="left" numberOfLines="0" id="ncA-hM-I7B">
+                            <string key="text">Presonal Info👻: Runs a blog ToddandRebekah at blogspot.com mostly about her 2 children, boy and a girl started in 2008 and consistent family stuff ever since Fake the smiles all the way and it will all be alright 😉</string>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1324" y="-158.08333333333337"/>
+        </scene>
+        <!--My Experiences-->
+        <scene sceneID="NIE-zY-8Oa">
+            <objects>
+                <controller title="My Experiences" id="inz-cS-mHi">
+                    <items>
+                        <label alignment="left" text="Roosevelt University 2011-2015 Bio Major, Chem Minor" numberOfLines="0" id="Ftb-Jj-9RV"/>
+                        <separator alignment="left" id="Snv-RC-KzG"/>
+                        <label alignment="left" text="GPA: 3.40" numberOfLines="0" id="Sn8-KJ-z7q"/>
+                        <separator alignment="left" id="F35-Ca-SFC"/>
+                        <label alignment="left" text="Would like to become scientist and or get to a medical school" numberOfLines="0" id="U0T-aO-F0h"/>
+                        <label alignment="left" text="Achievements:" id="fSZ-2R-SgE"/>
+                        <label alignment="left" text="Dean's List, Wrote chapter(on 2D alighnment) in 3DElectronMicroscopy book for wikibooks" numberOfLines="0" id="bHc-VC-9lT"/>
+                        <separator alignment="left" id="wfy-LH-5dz"/>
+                        <label width="1" alignment="left" numberOfLines="0" id="8SL-UD-AbK">
+                            <string key="text">Worked as a tutor where I helped students through difficult concepts in math, physics, chemistry and biology. Also created study materials.</string>
+                        </label>
+                        <separator alignment="left" id="COh-XB-K12"/>
+                        <label alignment="left" numberOfLines="0" id="PL9-23-Nxw">
+                            <string key="text">Worked as Research assistant where I was studying Halogen boning under Dr. Rosokha.  Moslty using uv-vis spectrophotometer on computer and laboraotry equipment to run the experiments.  Also prepared detailed excel reports with calculations.</string>
+                        </label>
+                        <separator alignment="left" id="7Jx-VV-Jug"/>
+                        <label alignment="left" numberOfLines="0" id="YYO-ID-9z0">
+                            <string key="text">Worked as Teacher's Assistant for Dr Szupunar under supervision of Erika Szotek to prepare and run laboratories and enforce rules.</string>
+                        </label>
+                        <separator alignment="left" id="FZe-N8-yhH"/>
+                        <separator alignment="left" id="T6G-zW-X8V"/>
+                        <label alignment="left" text="References:" numberOfLines="0" id="wBT-wA-duu"/>
+                        <separator alignment="left" id="E6H-yj-6l8"/>
+                        <label alignment="left" text="Dr Szpunar" id="JTk-er-c4g"/>
+                        <label width="1" alignment="left" text="Previous supervisor and mentor." textAlignment="center" numberOfLines="0" id="dJk-2H-ezI"/>
+                        <label alignment="left" text="847-619-4222" id="Ex6-Jh-8qX"/>
+                        <label alignment="left" text="dszpunar@roosevelt.edu" numberOfLines="0" id="9Kc-h8-NwE"/>
+                        <separator alignment="left" id="gMV-1f-hze"/>
+                        <label alignment="left" text="Dr. Voss" id="fTT-VM-gMv"/>
+                        <label width="1" alignment="left" text="Previous advisor and professor" textAlignment="center" numberOfLines="0" id="pLA-vL-szi"/>
+                        <label alignment="left" text="847-619-7966" id="VIV-Bv-yBM"/>
+                        <label alignment="left" text="nvoss@roosevelt.edu" numberOfLines="0" id="LJo-85-fUS"/>
+                        <separator alignment="left" id="HsW-am-IKk"/>
+                        <label alignment="left" text="Erika Szotek" id="kmK-Kn-sl9"/>
+                        <label width="1" alignment="left" text="Laboratory Supervisor" textAlignment="center" numberOfLines="0" id="AnW-Zv-32H"/>
+                        <label alignment="left" text="eszotek@roosevelt.edu" numberOfLines="0" id="znE-eK-XPe"/>
+                        <separator alignment="left" id="mBJ-hu-wcO"/>
+                        <separator alignment="left" id="yqA-pW-Mit"/>
+                        <label width="1" alignment="left" text="Laboraotry Equipment I used:" textAlignment="center" numberOfLines="0" id="wUq-Lm-dbH"/>
+                        <label alignment="left" text="GC-MS" id="mud-0r-n3s"/>
+                        <label alignment="left" text="(HPLC) High-Pressure Liquid Chromatorgraph" numberOfLines="0" id="fgD-mb-zEc"/>
+                        <label alignment="left" text="(IC) Ion Chromatorgraph" numberOfLines="0" id="5CR-Lq-Wdy"/>
+                        <label alignment="left" text="Titrations" id="Ri1-pj-NOJ"/>
+                        <label alignment="left" text="pH probes, indicators and papers" numberOfLines="0" id="K3x-Q3-vyq"/>
+                        <label alignment="left" text="Titrations" numberOfLines="0" id="lcL-df-OHC"/>
+                        <label alignment="left" text="Centrifuges" numberOfLines="0" id="ZJc-FO-8wa"/>
+                        <label alignment="left" text="Various Column Filtrations and chromatorgraphies" numberOfLines="0" id="KMf-c1-MOB"/>
+                        <label alignment="left" text="Microscopes: Disection, Light, TEM" numberOfLines="0" id="MFU-fq-btI"/>
+                        <label alignment="left" text="Used school-provided linux servers to reconstruct molecules based on images obtained by electron microscopes." numberOfLines="0" id="TBY-Ws-7O3"/>
+                        <separator alignment="left" id="QlV-1x-38B"/>
+                        <label width="1" alignment="left" text="Frequently Used Software:" textAlignment="center" numberOfLines="0" id="18c-Eq-Mk0"/>
+                        <label alignment="left" text="MS Office" id="786-qM-fjJ"/>
+                        <label alignment="left" text="xCode" id="mZR-75-bYi"/>
+                        <label alignment="left" text="Firefox" id="nRB-Z1-knH"/>
+                        <separator alignment="left" id="Ech-h3-XkP"/>
+                        <label alignment="left" text="Hobbies:" id="dok-wc-bpi"/>
+                        <label alignment="left" text="Science" id="xtb-WV-8uz"/>
+                        <label alignment="left" text="App Development" id="DQU-8m-Ehf"/>
+                        <label alignment="left" text="Cars" id="bOW-OW-yMm"/>
+                        <label alignment="left" text="Women" id="bt4-if-98P"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="694" y="1372.5"/>
+        </scene>
+        <!--Ethanol Plant Information-->
+        <scene sceneID="MCg-fb-f1u">
+            <objects>
+                <controller title="Ethanol Plant Information" id="I4v-OT-x5J">
+                    <items>
+                        <imageView width="1" alignment="left" image="plant" contentMode="scaleAspectFit" id="GvE-PG-fuM"/>
+                        <label alignment="left" text="Steps of Ethanol Production:" numberOfLines="0" id="qll-J6-DA6"/>
+                        <separator alignment="left" id="nze-Q8-pIM"/>
+                        <label alignment="left" numberOfLines="0" id="8Dj-ve-lrB">
+                            <string key="text">1. Corn is Delivered to the plant by a truck where it is tested for corn quality prior to dumping to dump pits into corn storage bushel silos.</string>
+                        </label>
+                        <separator alignment="left" id="0Y8-Uk-2Tp"/>
+                        <label alignment="left" numberOfLines="0" id="cY1-TQ-d7L">
+                            <string key="text">2. Corn is passed through a grinder(hammer mill) that grinds corn into fine powder and exposes starch from plant cell's energy storage.</string>
+                        </label>
+                        <separator alignment="left" id="iap-Fz-uWu"/>
+                        <label alignment="left" numberOfLines="0" id="Jha-wX-S89">
+                            <string key="text">3. Powder is mixed with water and cooked with alpha-amylase enzyme that breaks down starch into long-chain sugars.  It is a mash at this point.</string>
+                        </label>
+                        <separator alignment="left" id="2VX-nQ-JUF"/>
+                        <label alignment="left" text="4. Cooking (mash) process involves various temperature fluctuations in order to break down starch most effectively." numberOfLines="0" id="Znu-sh-Itz"/>
+                        <separator alignment="left" id="Gh0-qb-VI0"/>
+                        <label alignment="left" numberOfLines="0" id="bgg-tD-ydP">
+                            <string key="text">5.  Mash is then cooled to add gluco-amylase to break long-chain sugars into sugars that can be fermented by yeast cells(glucose and dextrose).</string>
+                        </label>
+                        <separator alignment="left" id="ZQ0-rm-efc"/>
+                        <label alignment="left" text="6. Mash is then mixed for 48 hours inside of the bio-reactor with yeast added in order to break down dextrose to ethanol." numberOfLines="0" id="qf1-8W-Qqm"/>
+                        <separator alignment="left" id="zIQ-79-5ne"/>
+                        <label alignment="left" text="7. At the end of fermentation mash is 5 proof (or 10%) ethanol, 12% solid and 78% water." numberOfLines="0" id="6kb-7b-uL5"/>
+                        <separator alignment="left" id="FZJ-g8-ieP"/>
+                        <label alignment="left" text="8. Ethanol and water are then extracted by simple distilation at 160 degrees." numberOfLines="0" id="408-BZ-GKW"/>
+                        <separator alignment="left" id="qc4-Yc-qn2"/>
+                        <label alignment="left" numberOfLines="0" id="9wX-me-rkf">
+                            <string key="text">9.  In the rectifying column the low proof ethanol is pumped out the bottom while high purity ethanol is evaporated at 170 degrees.</string>
+                        </label>
+                        <label alignment="left" numberOfLines="0" id="Irp-9h-vPa">
+                            <string key="text">Low Proof ethanol is then distilled again in the side stripper to separate it from water.  Which then is added to rest of alcohol</string>
+                        </label>
+                        <label alignment="left" numberOfLines="0" id="WfG-jg-uQX">
+                            <string key="text">All ethanol is then presurised through the molecular seive  (desication) for dehydration leaving us with 200 proof ethaol that goes to storage</string>
+                        </label>
+                        <separator alignment="left" id="5eK-g0-Kzm"/>
+                        <label alignment="left" text="10. In order to be used as fuel ehtanol has to be denatured by adding 2-5 percent gasoline." numberOfLines="0" id="CVF-pY-5rc"/>
+                        <separator alignment="left" id="Uio-aM-YtF"/>
+                        <label alignment="left" numberOfLines="0" id="4Yu-JZ-ncB">
+                            <string key="text">Products: Distillers Grains become lifestock feed (processed through centrifuge).  Corn syrup is extracted from distillers grains after step 8.  CO2 produced by yeast can be used for dry ice or carbonated bevarages. Water is reused in step 3 for mash.</string>
+                        </label>
+                        <label alignment="left" numberOfLines="0" id="tR9-eP-V0Y">
+                            <string key="text">Some of corn syrup can be mixed with distillers grains to produce wetcake and then dry to dried distillers grains with solubles.</string>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="916" y="1067.07125"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="864"/>
+        </scene>
+        <!--Jordon Platte-->
+        <scene sceneID="5GB-sn-430">
+            <objects>
+                <controller title="Jordon Platte" contentMode="scaleAspectFit" id="vnR-FH-oMN">
+                    <items>
+                        <label alignment="left" text="Jordon Platte" id="a7n-F3-xIt"/>
+                        <imageView alignment="left" image="Jordon" contentMode="scaleAspectFill" id="kh4-Kb-YVM"/>
+                        <label alignment="left" text="Optimization Engineer (Chemical) @ FHR for 2.25 years (Fairbank, IA)" numberOfLines="0" id="vPt-cE-QFv"/>
+                        <separator alignment="left" id="Yhg-P4-IX1"/>
+                        <label alignment="left" text="Loves process optimization, also a computer geek like you.  Created some html-based websites on his own time." numberOfLines="0" id="uBD-ZP-9fs"/>
+                        <separator alignment="left" id="VVa-YI-cBh"/>
+                        <label alignment="left" text="Education🎓: 2009-2012 Iowa State University BS in Chemical Engineering 3.25 GPA" numberOfLines="0" id="owb-rF-2oL"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1497" y="-192"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="FH_Interview_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="864"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NWe-T2-gJc"/>
+    </inferredMetricsTieBreakers>
+</document>
